@@ -3,16 +3,17 @@ package MyFailedTest;
 import java.util.Scanner;
 
 public class HostelBookingManagementRunner1 {
+
     public static void main(String[] args) {
 
         HostelBookingSystem hostelBookingSystem = new HostelBookingSystem();
         Scanner scanner = new Scanner(System.in);
-        int operation;
 
         do {
             System.out.println("HOSTEL BOOKING SYSTEM");
             Tools.listOperations();
             System.out.println(" enter your prefer option");
+            int operation;
             operation = scanner.nextInt();
 
             switch (operation) {

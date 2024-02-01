@@ -15,18 +15,4 @@ public class Tools {
 
         System.out.println(" ");
     }
-   /* public static List<Room> roomLister() {
-        List<Room> roomsList = new ArrayList<>();
-        roomsList.add(new Room(1, "single"));
-        roomsList.add(new Room(2, "double"));
-        roomsList.add(new Room(3, "a room self"));
-        roomsList.add(new Room(4, "suit"));
-        roomsList.add(new Room(5, "single"));
-        roomsList.add(new Room(6, "single"));
-        roomsList.add(new Room(7, "double"));
-        roomsList.add(new Room(8, "double"));
-        roomsList.add(new Room(9, "single"));
-        roomsList.add(new Room(10, "single"));
-        return roomsList;
-    }**/
 }
