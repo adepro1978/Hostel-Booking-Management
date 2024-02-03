@@ -33,10 +33,11 @@ public class Hostel {
 
     @Override
     public String toString() {
-        return "Hostel{" +
-                "hostelName='" + hostelName + '\'' +
-                ", hostelAddress='" + hostelAddress + '\'' +
-                ", roomList=" + roomList +
+        return hostelName.toUpperCase() + " HOSTEL {" + "\n" +
+                //"       hostelName = " + hostelName + "\n" +
+                "       Address :::> " + hostelAddress + "\n" +
+                "       roomList :::> " + roomList + "\n" +
+                "     " +
                 '}';
     }
 }

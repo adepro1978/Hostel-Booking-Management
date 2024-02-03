@@ -1,3 +1,3 @@
 package MyFailedTest;
 
-public enum RoomType { SINGLE, DOUBLE, STANDARD, SUITE }
+public enum RoomType { DOUBLE, SINGLE, STANDARD, SUITE }

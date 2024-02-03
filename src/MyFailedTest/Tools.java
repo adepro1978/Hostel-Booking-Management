@@ -12,7 +12,6 @@ public class Tools {
                         "  6. Unbooked Room()s %n" +
                         "  7. Display all hostel list %n" +
                         "  8. Exit the program %n");
-
         System.out.println(" ");
     }
 }

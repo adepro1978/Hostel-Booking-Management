@@ -27,9 +27,9 @@ public class Room {
     @Override
     public String toString() {
         return "Room{" +
-                "roomNumber=" + roomNumber +
-                ", roomType='" + roomType + '\'' +
-                ", availability=" + availability +
-                '}';
+                " roomNumber <=> " + roomNumber + "\n" +
+                "                       roomType :::> " + roomType + "\n" +
+                "                       availability :::> " + availability +
+                '}' + "\n" + "                 ";
     }
 }

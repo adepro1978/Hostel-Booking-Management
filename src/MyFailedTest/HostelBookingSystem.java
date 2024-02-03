@@ -110,7 +110,7 @@ public class HostelBookingSystem {
         out.println("enter hostel name to cancel booking : ");
         String hostelNameToCancelBooking = scanner.nextLine();
 
-        out.println("enter room number to cancel : ");
+        out.println("enter room number to cancel booking: ");
         int roomNumberToCancel = scanner.nextInt();
 
         // checking room with for-each loop
@@ -122,6 +122,7 @@ public class HostelBookingSystem {
                         room.setAvailability(true);
                         out.println(" Room booked Successfully");
                     }
+                    break;
                 }
             } else {
                 out.println(errorMessage);

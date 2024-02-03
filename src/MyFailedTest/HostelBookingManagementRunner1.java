@@ -1,7 +1,7 @@
 package MyFailedTest;
 
 import java.util.Scanner;
-
+ 
 public class HostelBookingManagementRunner1 {
 
     public static void main(String[] args) {
@@ -34,7 +34,6 @@ public class HostelBookingManagementRunner1 {
                         hostelBookingSystem.updateHostelData();
 
                 case 5 -> //Book Hostel
-                    //HostelBookingSystem.viewAllHostelList();
                         hostelBookingSystem.bookRoom();
 
                 case 6 -> //Cancel Booking
